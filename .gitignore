@@ -1,0 +1,19 @@
+# Node.js / Backend
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+.DS_Store
+
+# Client (React)
+build/
+.env
+node_modules/
+.DS_Store
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# OS specific
+Thumbs.db
