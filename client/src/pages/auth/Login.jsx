@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
   return (
@@ -21,7 +22,8 @@ export default function Login() {
         </div>
 
         <div className='forgetPassword'>
-          <a href='#' >Forget Password ?</a>
+          <Link to="/forget-password">Forget Password?</Link>
+    
         </div>
 
       </form>
